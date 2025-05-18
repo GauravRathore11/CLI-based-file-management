@@ -22,7 +22,9 @@ def get_command_from_natural_language(prompt: str) -> str:
     - copy folder <src> <dest>
     - rename folder <prev> <new>
     - delete folder <foldername>
+    - compress folder <foldername>
     - change directory <foldername>
+    - file info <filename>
     - list
     - help
     - exit
